@@ -6,9 +6,9 @@ local function onUpdate(self, elapsed)
     return
   end
 
-  local is_desired = GetPVPDesired();
+  local is_desired = GetPVPDesired()
   if is_desired == 0 then
-    SetPVP(1);
+    SetPVP(1)
   end
   
   elapsed_time = 0
